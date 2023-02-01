@@ -1,6 +1,6 @@
 var config_data = `
 {
-  "title": "Scouting PASS 2023",
+  "title": "5468 Scouting 2023",
   "page_title": "Charged Up",
   "checkboxAs": "10",
   "enable_google_sheets": "true",
@@ -13,8 +13,8 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Event",
-      "code": "e",
+    { "name": "Clackamas",
+      "code": "2023orore",
       "gsCol": "event",
       "type": "event",
       "defaultValue": "2022carv",
