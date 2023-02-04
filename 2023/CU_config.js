@@ -11,8 +11,8 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Clackamas",
-      "code": "2022orore",
+    { "name": "Event",
+      "code": "e",
       "type": "event",
       "defaultValue": "2022carv",
       "required": "true",
