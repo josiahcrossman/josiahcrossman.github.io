@@ -14,7 +14,7 @@ var config_data = `
       "required": "true"
     },
     { "name": "Event",
-      "code": "2022orore",
+      "code": "e",
       "gsCol": "event",
       "type": "event",
       "defaultValue": "2022carv",
