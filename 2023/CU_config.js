@@ -12,9 +12,9 @@ var config_data = `
       "required": "true"
     },
     { "name": "Clackamas",
-      "code": "2023orore",
+      "code": "2022orore",
       "type": "event",
-      "defaultValue": "2023orore",
+      "defaultValue": "2022carv",
       "required": "true",
       "disabled": "true"
     },
