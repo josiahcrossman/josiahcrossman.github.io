@@ -13,7 +13,7 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Clackamas",
+    { "name": "Event",
       "code": "2023orore",
       "gsCol": "event",
       "type": "event",
