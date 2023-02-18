@@ -109,6 +109,10 @@ var config_data = `
     { "name": "Who Defended this bot",
       "code": "who",
       "type": "text"
+    },
+    { "name": "Cycles Defended",
+      "code": "cd",
+      "type": "counter"
     }
   ],
   "endgame": [
