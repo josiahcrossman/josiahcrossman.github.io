@@ -113,6 +113,10 @@ var config_data = `
     { "name": "Cycles Defended",
       "code": "cd",
       "type": "counter"
+    },
+    { "name": "Defensive Fouls",
+      "code": "df",
+      "type": "counter"
     }
   ],
   "endgame": [
