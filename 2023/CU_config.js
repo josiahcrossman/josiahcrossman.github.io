@@ -123,6 +123,10 @@ var config_data = `
         "x": "Not attempted"
       },
       "defaultValue": "x"
+    },
+    { "name": "Total # of alliance<br>robots docked/engaged",
+      "code": "dn",
+      "type": "counter"
     }
   ],
   "postmatch": [
