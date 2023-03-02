@@ -94,14 +94,6 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Feeder",
-      "code": "f",
-      "type": "bool"
-    },
-    { "name": "Was Fed<br>Game Pieces",
-      "code": "wf",
-      "type": "bool"
-    },
     { "name": "Was Defended",
       "code": "wd",
       "type": "bool"
@@ -112,10 +104,6 @@ var config_data = `
     },
     { "name": "Cycles Defended",
       "code": "cd",
-      "type": "counter"
-    },
-    { "name": "Defensive Fouls",
-      "code": "df",
       "type": "counter"
     }
   ],
@@ -135,17 +123,9 @@ var config_data = `
         "x": "Not attempted"
       },
       "defaultValue": "x"
-    },
-    { "name": "Total # of alliance<br>robots docked/engaged",
-      "code": "dn",
-      "type": "counter"
     }
   ],
   "postmatch": [
-    { "name": "Links Scored",
-      "code": "ls",
-      "type": "counter"
-    },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
