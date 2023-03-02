@@ -94,14 +94,6 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Feeder",
-      "code": "f",
-      "type": "bool"
-    },
-    { "name": "Was Fed<br>Game Pieces",
-      "code": "wf",
-      "type": "bool"
-    },
     { "name": "Was Defended",
       "code": "wd",
       "type": "bool"
@@ -134,10 +126,6 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Links Scored",
-      "code": "ls",
-      "type": "counter"
-    },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
