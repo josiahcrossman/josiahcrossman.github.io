@@ -7,7 +7,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023orore",
+      "defaultValue": "2023wayak",
       "required": "true",
       "disabled": "true"
     },
