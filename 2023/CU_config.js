@@ -88,7 +88,6 @@ var config_data = `
       "showFlip": "false",
       "showUndo": "false",
       "shape": "circle 12 black red true",
-      "cycleTimer": "tct"
     },
     { "name": "Was Defended",
       "code": "wd",
