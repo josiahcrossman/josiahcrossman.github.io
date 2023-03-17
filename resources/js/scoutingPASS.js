@@ -342,15 +342,6 @@ function addClickableImage(table, idx, name, data) {
   }
   cell.appendChild(inp);
 
-  if (data.hasOwnProperty('cycleTimer')) {
-    if (data.cycleTimer != "") {
-      inp = document.createElement('input');
-      inp.setAttribute("hidden", "");
-      inp.setAttribute("id", "cycleTimer_" + data.code);
-      inp.setAttribute("value", data.cycleTimer);
-      cell.appendChild(inp);
-    }
-  }
 
   idx += 1
   row = table.insertRow(idx);
