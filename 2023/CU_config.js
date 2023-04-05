@@ -89,13 +89,21 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-    { "name": "Was Defended",
+    { "name": "Played Defense",
       "code": "wd",
       "type": "bool"
     },
-    { "name": "Who Defended this bot",
+    { "name": "Skill",
       "code": "who",
-      "type": "text"
+      "type": "radio",
+      "choices": {
+        "1": "Tons of fouls<br>",
+        "2": "Some fouls, slowed a little<br>",
+        "3": "1-0 fouls, fine defense<br>",
+        "4": "0 fouls, good defense<br>",
+        "5": "0 fouls, severly slowed cycles<br>"
+      },
+      "defaultValue": "3"
     }
   ],
   "endgame": [
